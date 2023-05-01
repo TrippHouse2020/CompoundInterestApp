@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', 'bold';
+}
+#body {
+    background-color: #181B3F;
+}
+
+/* Form & Chart */
+#form-chart-container {
+    background-color: #272F5C;
+    border-radius: 1vmin;
+}
+#form-1 {
+    background-color: transparent;
+}
+#form-1 label {
+    color: #3CF4D4; 
+    letter-spacing: 0.1vmin; 
+}
+#form-1 span {
+    background-color: #181B3F;
+    color: white;
+    border: none;
+}
+#form-1 input {
+    background-color: #181B3F;
+    color: #3CF4D4; 
+    border: none;
+}
+#form-1 button {
+    background-color: #181B3F;
+    color: #3CF4D4; 
+    border: none;
+}
+#form-1 button:hover {
+    background-color: #3CF4D4;
+    color: #181B3F;
+    border: 0.2vmin solid transparent;
+}
+#form-1 select {
+    background-color: #181B3F;
+    color: #3CF4D4;
+    border: none;
+    background-image: none;
+}
+
+/* Table */
+#tableContainer {
+    background-color: #272F5C;
+    border-radius: 1vmin;
+    border: 0.3vmin solid #3CF4D4;
+}
+#table1 {
+    text-align: center;
+    color: white;
+    width: 100%;
+}
+#table1 th {
+    background-color: #030303;
+    color: white;
+    font-size: 3vmin;
+    padding: 2vmin;
+    border: none;
+}
+#table1 tr {
+    height: 8vmin;
+    border: none;
+    font-size: 3vmin;
+}
+#table1 tr:nth-child(even) {
+    background-color: #212529;
+}
+#table1 tr:nth-child(odd) {
+    background-color: #343A40;
+}
+#table1 td:nth-child(1) {
+    color: #F1FAEE;
+}
+#table1 td:nth-child(2) {
+    color: #48A2E3;
+}
+#table1 td:nth-child(3) {
+    color: #ABFF4F;
+}
+#table1 td:nth-child(4) {
+    color: #fb00ff;
+}
